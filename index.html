@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      name="description"
+      content="A simple responsive JavaScript calculator. Equivalent capabilities to a very smart monkey doing Grade 6 homework."
+    />
+
+    <title>Calculux</title>
+
+    <!-- google fonts -->
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript
+      ><link
+        rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed"
+    /></noscript>
+
+    <!-- jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- project-specific javascript -->
+    <script type="text/javascript" src="assets/js/source.js"></script>
+
+    <!-- project CSS -->
+    <link
+      rel="preload"
+      href="assets/css/style.css"
+      as="style"
+      onload="this.rel='stylesheet'"
+    />
+    <noscript><link rel="stylesheet" href="assets/css/style.css" /></noscript>
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="container">
+        <div class="window">
+          <div class="display">
+            <div id="evaluate">Hi there!</div>
+          </div>
+        </div>
+        <div class="UI">
+          <div class="num">
+            <div class="btn btn-light number" value="1">1</div>
+            <div class="btn btn-light number" value="2">2</div>
+            <div class="btn btn-light number" value="3">3</div>
+            <div class="btn btn-light number" value="4">4</div>
+            <div class="btn btn-light number" value="5">5</div>
+            <div class="btn btn-light number" value="6">6</div>
+            <div class="btn btn-light number" value="7">7</div>
+            <div class="btn btn-light number" value="8">8</div>
+            <div class="btn btn-light number" value="9">9</div>
+            <div class="btn btn-light number" value="0">0</div>
+            <div class="btn btn-light number" value=".">.</div>
+            <div class="btn btn-light number" value="=">=</div>
+          </div>
+          <div class="ops">
+            <div class="btn btn-dark operation" value="Oops">⌫</div>
+            <div class="btn btn-dark operation" value="nvm">C</div>
+            <div class="btn btn-dark operation" value="/">÷</div>
+            <div class="btn btn-dark operation" value="*">×</div>
+            <div class="btn btn-dark operation" value="-">-</div>
+            <div class="btn btn-dark operation" value="+">+</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tag">
+      <a href="https://linktr.ee/aakifnehal">@aakifnehal</a>
+    </div>
+  </body>
+</html>
